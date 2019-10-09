@@ -1,15 +1,42 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="pageone">
+    <h1>Crea tu Contraseña!</h1>
+    <div>
+      <button class="btn1" type="button" id="star" >Empezar</button>
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+  </div>
+  <div id="pagetwo">
+    <h1 class="title">Genera una contraseña segura</h1>
+    <p class="parrafo">
+      Recuerda, con tu número mágico podrás descifrar tu contraseña.
+    </p>
+    <h2>Introduce una contraseña </h2>
+    <div>
+      <input class="input" type="text" id="contraseña" placeholder="Contraseña" />
+      <input class="input" type="number" id="offset" placeholder="Número mágico" />
+    </div>
+    <button class="btn1" type="button" id="cifrar">Codificar</button>
+    <button class="btn2" type="button" id="descifrar">Decodificar</button>
+  <div id="pagethree">
+        <p class="parrafo"> Tu nueva contraseña es:
+      <span id="respuesta"></span>
+        </p>
+  </div>
+    
+    
+  </div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
