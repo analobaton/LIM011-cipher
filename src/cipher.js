@@ -1,53 +1,43 @@
-const encode = (offset, contraseña) => {
-  resultado = '';
-  let position = 0;
+window.cipher ={
+encode : (offset,contraseña) => {
+  let resultado = '';
+let position = 0;
 
-  //Obtener el valor de la letra
   for (let i = 0; i < contraseña.length; i++) {
     position = contraseña.charCodeAt(i);
-    if (position >= 65 && 90 >= position) {
-      //Aplicar la fórmula para otener la nueva posición de la letra
+    if (position >= 65 && position <= 90) {
       let newposition = (position - 65 + parseInt(offset)) % 26 + 65;
 
       resultado += String.fromCharCode(newposition);
-      console.log(resultado);
 
-    } else if (position >= 97 && 122 >= position) {
-      //Aplicar la fórmula para otener la nueva posición de la letra
+    } else if (position >= 97 && position <= 122 ) {
       let newposition = (position - 97 + parseInt(offset)) % 26 + 97;
-      console.log(newposition);
 
       resultado += String.fromCharCode(newposition);
     }
   }
-  console.log(resultado)
   return resultado
-}
+},
 
-const decode =(offset,contraseña) => {
-  resultado = '';
+decode: (offset,contraseña) => {
+  let resultado = '';
   let position = 0;
 
-  //Obtener el valor de la letra
   for (let i = 0; i < contraseña.length; i++) {
     position = contraseña.charCodeAt(i);
 
-    if (position >= 65 && 90 >= position) {
+    if (position >= 65 && position <= 90) {
 
-      //Aplicar la fórmula para otener la nueva posición de la letra mayuscula
       let newposition = (position - 90 - parseInt(offset)) % 26 + 90;
 
       resultado += String.fromCharCode(newposition);
-      console.log(resultado);
 
-    } else if (position >= 97 && 122 >= position) {
-      //Aplicar la fórmula para otener la nueva posición de la letra minuscula 
+    } else if (position >= 97 &&  position <= 122) {
       let newposition = (position - 122 - parseInt(offset)) % 26 + 122;
-      console.log(newposition);
 
       resultado += String.fromCharCode(newposition);
     }
   }
-  console.log(resultado)
   return resultado
 }
+};
