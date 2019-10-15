@@ -8,13 +8,13 @@ mágico o offset que ingrese.
 
 ## 2. Aplicación Web.
 
-![Imagen de Inicio](/Fotos/1.png "Inicio")
+![Imagen de Inicio](/Fotos/1.PNG "Inicio")
 
-![Home](/Fotos/2.png "Home")
+![Home](/Fotos/2.PNG "Home")
 
-![Cifrar Contraseña](/Fotos/3.png "Inicio")
+![Cifrar Contraseña](/Fotos/3.PNG "Inicio")
 
-![Descrifrar Contraseña](/Fotos/4.png "Inicio")
+![Descrifrar Contraseña](/Fotos/4.PNG "Inicio")
 
 ## 3. Investigación UX
 
@@ -26,7 +26,7 @@ Nuestra aplicación web, da la opción de poder cifrar esas contraseñas y darle
 
 ## 4. Primer prototipo en papel.
 
-![Prototipo en papel](/Fotos/prototipo.jpeg "prototipo")
+![Prototipo en papel](/Fotos/Prototipo.jpeg "prototipo")
 
 
 ## 5. Resumen del feedback.
