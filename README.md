@@ -6,9 +6,9 @@ Esta aplicación esta diseñada para poder generar contraseñas seguras. Servir�
 cifrar o descrifrar la contraseña que ingrese, y el grado de complejidad, él lo definirá en base al número 
 mágico o offset que ingrese. 
 
-## 2. Aplicación Web.
+## 2. Fotos de Aplicación Web.
 
-![Imagen de Inicio](/Fotos/1.PNG "Inicio")
+![Inicio](/Fotos/1.PNG "Inicio")
 
 ![Home](/Fotos/2.PNG "Home")
 
@@ -19,10 +19,10 @@ mágico o offset que ingrese.
 ## 3. Investigación UX
 
 ### 3.1 Explicar quiénes son los usuarios y los objetivos en relación con el producto:
-Nuestro usuario es una persona que tiende a tener una misma clave para todo, y siempre lo relaciona con aspectos personales para no olvidarla, lo que hace que su sistema de seguridad sea muy debil y predecible, dejando una puerta abierta para que sea víctima de hackeos.
+Nuestro usuario es una persona que tiende a usar una misma clave para todo, y siempre lo relaciona con aspectos personales para no olvidarla, lo que hace que su sistema de seguridad sea muy debil y predecible, dejando una puerta abierta para que sea víctima de hackeos.
 
 ### 3.2 Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
-Nuestra aplicación web, da la opción de poder cifrar esas contraseñas y darles el grado de complejidad que ellos elijan, escribiendo un número mágico y del mismo podrán decisfrarlas.  
+Nuestra aplicación web, ayuda a solucionar este problema generando contraseñas más seguras. Dejando que nuestro usuario escriba contraseñas fáciles de recordar, probablemente puede usar una contraseña para todas sus cuentas,sin embargo con la opción de cifrar, solo deben recordar el número mágico y hacer sus contraseñas más segura. 
 
 ## 4. Primer prototipo en papel.
 
